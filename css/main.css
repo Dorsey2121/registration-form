@@ -1,0 +1,37 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+legend {
+  padding-right: 1rem;
+}
+
+fieldset:nth-child(2) {
+  padding-top: 0;
+}
+
+fieldset:nth-child(1) {
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name,
+  .email {
+    padding-right: .5rem;
+  }
+
+  .fitness,
+  .age {
+    padding-left: .5rem;
+  }
+
+}
